@@ -1,0 +1,28 @@
+{
+  "Name": "iR-Discord-Bot",
+  "version": "1.0.0",
+  "description": "* Store Employee Repair Achievements\r     * Overall \"Technician Level\"\r     * Certain Req's per Level\r     * Individual Repairs\r     * Each Device has a level of knowledge\r   * Recall Employee Repair Achievements\r     * Show number of Repairs\r     * Show overall profile stats\r   * Answer Employee Manual Questions\r     * Keyword search of employee Manual\r   * Quests\r     * Employee can pick up specific tasks\r       * Not easy IRL tasks\r       * Time Limit\r     * Once completed IRL reward\r       * Difficulty -> Reward",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dave89rr/iR-Discord-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dave89rr/iR-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Dave89rr/iR-Discord-Bot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "trello": "^0.10.0",
+    "twilio": "^3.66.0"
+  }
+}
